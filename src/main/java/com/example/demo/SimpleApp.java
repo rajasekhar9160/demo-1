@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SimpleApp {
 	
+	
 	@RequestMapping("/")
 	public String displayMessage() {
-		return "Hello world";
+		return "Hello jenkins";
 	}
 
 }
